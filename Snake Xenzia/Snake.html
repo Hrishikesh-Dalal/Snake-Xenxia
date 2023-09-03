@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="snake_style.css">
+    <!-- <script src="snake_script.js"></script> -->
+    <!-- <script src="new_snake_script.js"></script> -->
+    <!-- <script src="food_color_snake_script.js"></script> -->
+    <!-- <script src="score_food_snake_script.js"></script> -->
+    <!-- <script src="snake_body_color_size.js"></script> -->
+    <script src="mix_snake_script.js"></script>
+</head>
+<body>
+    <h1>Snake Zenxia</h1>
+    <div class="main_dabba" >
+        <div class="game_box">
+            <canvas id="board"></canvas>
+        </div>
+        <div class="other_boxes">
+            <div class="rules">
+                <h2>Rules</h2>
+                <ol>
+                    <li>Navigate the Snake to eat food with help of arrow keys</li>
+                    <li>Red : 1 Score,  White : 3 Score</li>
+                    <li>Don't touch the boundaries or eat yourself!</li>
+                </ol>
+            </div>
+            <div class="writeup">
+                <p>The Score-Card:</p>
+                <p id="writeup"></p>
+                
+            </div>
+            <div class="writeup2">
+                <p id="writeup2">Game On!</p>
+            </div>
+            <div class="play_again">
+            <!-- One way of reloading -->
+                <!-- <input type="button" value="Play Again" id="play_agn" onclick="window.location.reload(true)"> -->
+            <!-- other way -->
+                <input type="button" value="Play Again" onclick="reload()"  class="button">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

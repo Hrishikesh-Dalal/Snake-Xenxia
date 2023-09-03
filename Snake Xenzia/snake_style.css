@@ -1,0 +1,78 @@
+.main_dabba{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.game_box{
+    border: brown solid 5px;
+    background-color: #6AFF14;
+}
+body{
+    
+    background: linear-gradient(rgba(0, 128, 0, 0.39), rgba(255, 255, 0, 0.39));
+    background: linear-gradient(lightblue, rgba(0, 0, 139, 0.308));
+    background-color: darkblue;
+    /* color: li; */
+}
+.writeup{
+    height: 100px;
+    width: 200px;
+    border: 3px black dashed;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 0);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#writeup2{
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+    background-color: rgba(34, 125, 178, 0.336);
+    background-color: red;
+    padding: 10px;
+    margin-top: 40px;
+    border: 3px black dashed;
+}
+h1{
+    color: blackl;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40px;
+}
+.other_boxes{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+.rules{
+    border: black solid 2px;
+    /* background: linear-gradient(rgba(0, 128, 0, 0.39), rgba(255, 255, 0, 0.39));
+    background: linear-gradient(rgb(182, 182, 182), grey); */
+    background-color: #00f2ee;
+    color: maroon;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    padding-right: 20px;
+}
+h2{
+    text-align: center;
+}
